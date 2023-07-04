@@ -1,22 +1,22 @@
-liste2 = [[24,5,9,6],[55,61,32]]
+list2 = [[24,5,9,6],[55,61,32]]
 
+list3 = [123, "group", 45, 56, "student", 70]
+print(list3)
+for item in list3:
+    if str(item).isnumeric():
+        print("result :", item * 2)
 
-liste3 = [123,"groupe", 45,56,"eleve",70]
-print(liste3)
-for a in liste3:
-    if str(a).isnumeric():
-        print("resultat :", a * 2)
+list4 = [["lobby",5,3],["room1",5,3],["room2",5,3]]
+print(list4)
+for i in list4:
+    print(i, "area :", i[1]* i[2])
 
-liste4 = [["salon",5,3],["chambre1",5,3],["chambre2",5,3]]
-print(liste4)
-for i in liste4:
-    print(i,"surface :", liste4[2])
-liste5 = []   
+list5 = []   
 for x in range(3):
-    sousliste = []
-    sousliste.append(input("nom piece : "))
-    sousliste.append(float(input("dimension : ")))
-    sousliste.append(float(input("dimension 2: ")))
-    liste5.append(sousliste)
-print(liste5)
+    sublist = []
+    sublist.append(input("Room name: "))
+    sublist.append(float(input("dimension: ")))
+    sublist.append(float(input("dimension 2: ")))
+    list5.append(sublist)
+print(list5)
     

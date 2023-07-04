@@ -1,34 +1,30 @@
-maListe = []
-somme = 0
-l = 0
-#--------------------------- Programmes ------------------------------------#
+myList = []
+sumGrades = 0
 
-nbNote = int(input("Veuillez saisir le nombre d'élève : "))
+nbGrades = int(input("Please enter the number of students: "))
 
-while l < nbNote:
-    note = float(input("Veuillez saisir une note entre 0 et 100 : "))
-    if note >= 0 and note <= 100:
-        maListe.append(note)
-else:
-    print("Erreur!!!")
-l = l + 1
+for i in range(nbGrades):
+    grade = float(input("Please enter a grade between 0 and 100: "))
+    if grade >= 0 and grade <= 100:
+        myList.append(grade)
+    else:
+        print("Error!!! Invalid grade.")
 
-print(maListe)
+print("Grades list:", myList)
 
-for note in maListe:
-    if note >= 60 and note <= 100:
-        print("Les meilleurs note de la classe : ",note)
+highestGrades = []
+for grade in myList:
+    if grade >= 60 and grade <= 100:
+        highestGrades.append(grade)
 
-somme = sum(maListe)
-moyenne = somme/len(maListe)
-print("La moyenne du groupe est : ", moyenne)
+print("Highest grades in the group:", highestGrades)
 
-print("La meilleur note du groupe : ", max(maListe))
+sumGrades = sum(myList)
+average = sumGrades / len(myList)
+print("Group average:", average)
 
-m = max(maListe)
-i = 0
-for note in maListe:
-    if note == m:
-        i += 1
+highestMark = max(myList)
+print("Highest mark in the class:", highestMark)
 
-print("Nombre d'élève ayant eu la meilleur note : ",i)
+countHighestGrade = myList.count(highestMark)
+print("Number of students with the highest grade:", countHighestGrade)

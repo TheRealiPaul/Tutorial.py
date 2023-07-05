@@ -3,6 +3,7 @@ def sum_and_average(numbers):
     average = total / len(numbers)
     return total, average
 
+
 numbers_list = []
 number_of_input = int(input("Please enter the number of numbers you will input: "))
 for _ in range(number_of_input):

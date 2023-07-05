@@ -1,10 +1,11 @@
 words = input("Donnez un mot : ")
 list = ["salut", "paul", "test"]
-for i in list :
-    if len(i) > len(words): 
+for i in list:
+    if len(i) > len(words):
         print(i)
 
-def mot ():
+
+def mot():
     for i in list:
         if len(i) > len(words):
             print(i)

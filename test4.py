@@ -1,15 +1,14 @@
-randomListe = []
-nouvelleListe = []
-i = 0
-#-------------------------------------------- Programmes ---------------------------------------------------#
-#importation du module random
-from random import randint
-#décompte et affichage des deux listes randomListe et nouvelleListe
-while i < 10:
-    r = randint(0,255)
-    randomListe.append(r)
-    nouvelleListe.append(chr(r))
-    i += 1
-#end while
-print(randomListe)
-print(nouvelleListe)
+import random
+
+randomList = []
+newList = []
+
+# Generate and display the two lists: randomList and newList
+for i in range(10):
+    r = random.randint(0, 255)
+    randomList.append(r)
+    newList.append(chr(r))
+
+# Print the lists
+print("The random list is:", randomList)
+print("The new list is:", newList)

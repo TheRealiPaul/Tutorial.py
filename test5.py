@@ -1,18 +1,15 @@
-#Écrire une fonction qui prend une liste de nombres et retourne la somme et la moyenne des nombres de la liste. Tester votre fonction. 
+def sum_and_average(numbers):
+    total = sum(numbers)
+    average = total / len(numbers)
+    return total, average
 
-def sommeETmoyenne (liste):
-    for i in range(len(liste)):
-        somme = 0
-        somme = somme + nb
-        moyenne = somme / len(liste)
-    return somme, moyenne
+numbers_list = []
+number_of_input = int(input("Please enter the number of numbers you will input: "))
+for _ in range(number_of_input):
+    num = int(input("Enter a number: "))
+    numbers_list.append(num)
 
-liste = []
-
-X = int(input("Veuillez saisir le nombre de nombres que vous allez saisir : "))
-for i in range(X):
-    nb = int(input("Entrez les nombres : "))
-    liste.append(nb)
-    print(liste)
-
-print(sommeETmoyenne(liste))
+print("Numbers list:", numbers_list)
+total_sum, avg = sum_and_average(numbers_list)
+print("Sum:", total_sum)
+print("Average:", avg)

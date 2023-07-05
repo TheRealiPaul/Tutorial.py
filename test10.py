@@ -1,16 +1,16 @@
 words = input("Donnez un mot : ")
-liste = ["salut", "paul", "idk"]
-for i in liste :
+list = ["salut", "paul", "test"]
+for i in list :
     if len(i) > len(words): 
         print(i)
 
 def mot ():
-    for i in liste:
+    for i in list:
         if len(i) > len(words):
             print(i)
 
 
-liste = ["salut", "les", "amis", "not gonna lie"]
+list = ["hello", "beautiful", "world", "I love you"]
 
 words = input("GIMME A WORD : ")
 

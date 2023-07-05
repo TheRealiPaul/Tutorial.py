@@ -1,9 +1,11 @@
-#Write a Python program to check if first digit/character of each element in a given list is same or not.
 liste = [1234, 122, 1984, 19372, 100]
 
-#pour tous les elements de la liste:
-for i in liste:
-    #if first digit/character of each element is the same
-    if liste[0] == i:
-        pass
-        
+# Check if first digit/character of each element is the same
+first_character = str(liste[0])[0]  # Get the first character of the first element
+
+for item in liste:
+    if str(item)[0] != first_character:
+        print("First character is not the same for all elements.")
+        break
+else:
+    print("First character is the same for all elements.")

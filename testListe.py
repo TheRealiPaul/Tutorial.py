@@ -1,7 +1,7 @@
-def vide(liste):
-    if liste == []:
-        print("La liste est vide")
+def is_empty(lst):
+    if lst == []:
+        print("The list is empty")
     else:
         print("NOT EMPTY")
 
-vide([])
+is_empty([])

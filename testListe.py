@@ -4,4 +4,5 @@ def is_empty(lst):
     else:
         print("NOT EMPTY")
 
+
 is_empty([])

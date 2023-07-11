@@ -1,4 +1,4 @@
-# Tutorial about Python
+# Python Tutorial
 
 My goal is to be a Data Analyst / Data Engineer / Data Scientist.
 

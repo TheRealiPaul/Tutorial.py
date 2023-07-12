@@ -10,4 +10,22 @@ In this little project, I want to learn more about Python because it is needed t
 
 For Windows:
 
-Copy this command line: `pip install pandas`
+Copy this command line: `pip install pandas` and paste it in the terminal.
+
+### Output example from the Excel tutorial:
+
+|   #   |     Country             |   Product   |
+|-------|------------------------|-------------|
+|   0   |        Canada           |  Carretera  |
+|   1   |        Germany          |  Carretera  |
+|   2   |        France           |  Carretera  |
+|   3   |        Germany          |  Carretera  |
+|   4   |        Mexico           |  Carretera  |
+|  ...  |          ...            |     ...     |
+|  695  |        France           |  Amarilla   |
+|  696  |        Mexico           |  Amarilla   |
+|  697  |        Mexico           |  Montana    |
+|  698  |        Canada           |  Paseo      |
+|  699  |  United States of America |  VTT      |
+
+[700 rows x 2 columns]

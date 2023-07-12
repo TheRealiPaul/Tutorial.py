@@ -10,4 +10,4 @@ In this little project, I want to learn more about Python because it is needed t
 
 For Windows:
 
-`pip install pandas`
+Copy this command line: `pip install pandas`

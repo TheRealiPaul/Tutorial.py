@@ -29,3 +29,7 @@ Copy this command line: `pip install pandas` and paste it in the terminal.
 |  699  |  United States of America |  VTT      |
 
 [700 rows x 2 columns]
+
+## Here is an example of an output of using the library matplotlib:
+
+![matplotlib](https://github.com/TheRealiPaul/Tutorial.py/blob/main/files/Matploblib_test.png)

@@ -32,4 +32,8 @@ Copy this command line: `pip install pandas` and paste it in the terminal.
 
 ## Here is an example of an output of using the library matplotlib:
 
+To use it, you need to do following command line:
+
+`pip install matplotlib`
+
 ![matplotlib](https://github.com/TheRealiPaul/Tutorial.py/blob/main/files/Matploblib_test.png)

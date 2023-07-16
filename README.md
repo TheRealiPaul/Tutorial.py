@@ -30,7 +30,7 @@ Copy this command line: `pip install pandas` and paste it in the terminal.
 
 [700 rows x 2 columns]
 
-## Here is an example of an output of using the library matplotlib:
+## Here is an example output using the matplotlib library:
 
 To use it, you need to do the following command line:
 

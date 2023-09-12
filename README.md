@@ -1,6 +1,6 @@
 # Python Tutorial
 
-My goal is to be a Data Analyst / Data Engineer / Data Scientist.
+My goal is to be a Data Analyst / Data Engineer
 
 In this little project, I want to learn more about Python because I am interested to be a Data Analyst.
 
